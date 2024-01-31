@@ -46,7 +46,7 @@ button {
 .container {
   max-width: 320px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 0;
 }
 
 .visually-hidden,
@@ -279,7 +279,7 @@ button {
   gap: 24px;
   flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 .teammate-item {
