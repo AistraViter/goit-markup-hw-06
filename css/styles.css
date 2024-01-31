@@ -513,7 +513,6 @@ button {
   /*gap: 24px;*/
   gap: 16px;
   align-items: center;
-
 }
 .footer-input::placeholder {
   color: #ffffff;
