@@ -3,8 +3,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Homework1" />
-    <title>Homework1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Company" />
+    <title>Company</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -31,15 +32,15 @@
 
           <ul class="nav-list">
             <li class="nav-item">
-              <a class="nav-text current" href="./index.html">Studio </a>
+              <a class="nav-text" href="./index.html">Studio </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-text current" href="">Portfolio </a>
+              <a class="nav-text" href="">Portfolio </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-text current" href="">Contacts </a>
+              <a class="nav-text" href="">Contacts </a>
             </li>
           </ul>
         </nav>
@@ -65,7 +66,7 @@
       <section class="website-title-section">
         <div class="container">
           <h1 class="website-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="button-text">Order Service</button>
+          <button type="button" class="button-order">Order Service</button>
         </div>
       </section>
 
@@ -517,8 +518,9 @@
 
     <footer class="footer-section">
       <div class="container footer-container">
+        <!-- Footer-->
         <!-- Logo-->
-        <div class="footer-logo-container">
+        <div class="footer-subcontainer">
           <a href="./index.html" class="logo-text-footer">
             Web<span class="studio-footer">Studio</span>
           </a>
@@ -528,10 +530,11 @@
           </p>
         </div>
 
+        <!-- Footer-->
         <!-- Social media-->
 
-        <div>
-          <p class="footer-socialmedia-text">Social media</p>
+        <div class="footer-subcontainer">
+          <p class="footer-subheader">Social media</p>
 
           <ul class="footer-socialmedia-list">
             <li class="footer-socialmedia-item">
@@ -584,7 +587,36 @@
             </li>
           </ul>
         </div>
+
+        <!-- Footer-->
+        <!-- Subscribe-->
+
+        <div class="footer-subscribe">
+          <p class="footer-subheader">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-label">
+              <input
+                class="footer-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="footer-button" type="submit">
+              Subscribe
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 32 32"
+                class="footer-button-icon"
+              >
+                <use href="./images/icons.svg#fly"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
   </body>
 </html>
