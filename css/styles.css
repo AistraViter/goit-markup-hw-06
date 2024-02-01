@@ -357,18 +357,23 @@ button {
 /*4 Portfolio*/
 .portfolio-section {
   /*padding: 120px 0;*/
-  padding: 96px 16px;
+  padding: 96px 0;
 }
 
 .potfolio-list {
   display: flex;
+  flex-direction: column;
   gap: 24px;
   justify-content: center;
-  flex-wrap: wrap;
-  row-gap: 48px;
+  align-items: center;
+  /*flex-wrap: wrap;
+  row-gap: 48px;*/
 }
 .portfolio-item {
   /* flex-basis: calc((100% - 48px) / 3);*/
+  width: 288px;
+  justify-content: center;
+
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -439,13 +444,18 @@ button {
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
-  margin-right: 102px;
-  margin-left: 102px;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .studio-footer {
   color: #f4f4fd;
+}
+
+.footer-text-div {
+  width: 320px;
+  justify-content: center;
+  text-align: center;
 }
 
 .footer-text {
