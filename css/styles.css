@@ -64,7 +64,7 @@ button {
 }
 
 @media (max-width: 767px) {
-  .menu-320.is-open {
+  .menu-320-fixed.is-open {
     display: block;
   }
 
@@ -922,6 +922,7 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
+  display: none;
 }
 
 .menu-320 {
@@ -934,7 +935,6 @@ button {
   padding: 72px 16px 40px 16px;
   background-color: #fcfcfc;
   border: 1px solid #434455;
-  display: none;
 }
 
 /* Menue 320 */
